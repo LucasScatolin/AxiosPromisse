@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const gitURL = 'https://api.github.com/users/LucasScatolin'
+const gitURLAPI = 'https://api.github.com/users/LucasScatolin'
 
 class ApiAxios { 
     static async getDateGitHub(urlProfileApi)
@@ -25,4 +25,4 @@ class filterApi{
 }
   
 
-ApiAxios.getDateGitHub(gitURL);
+ApiAxios.getDateGitHub(gitURLAPI);
